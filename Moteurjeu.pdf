@@ -1,0 +1,16 @@
+<html> 
+<head> 
+<body> 
+
+<table> 
+<tr> 
+<td>test inclusion</td> 
+</tr> 
+<tr> 
+<td> <iframe src="moteurjeu.pdf" width="800" height="600" align="middle"></iframe></td> 
+</tr> 
+</table> 
+
+</body> 
+</head> 
+</html>
