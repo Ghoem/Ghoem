@@ -1,0 +1,202 @@
+<p align="CENTER">
+    <strong>Synthèse : moteur graphique dans le jeu vidéo</strong>
+</p>
+<p align="JUSTIFY">
+    <strong>I- Un moteur graphique dans le domaine du jeu vidéo, qu'est ce que c'est ? </strong>
+</p>
+<ol>
+    <li>
+        <p align="JUSTIFY">
+            Moteur de jeu
+        </p>
+    </li>
+</ol>
+<p align="JUSTIFY">
+    Un moteur de jeu est un programme complexe et polyvalent qui rassemble plusieurs moteurs spécialisés qui vont servir à créer des jeux vidéo ; parmi ces
+    moteurs spécialisés, nous retrouvons le moteur graphique, le moteur physique, les moteur de son, le moteur d'intelligence artificielle, et ainsi de suite.
+    Un moteur de jeu est un environnement proposant des bibliothèques logicielles (outils et fonctions) qui permettent la création d'un jeu vidéo. Pour
+    communiquer avec cette bibliothèque, le programmeur passe par une interface appelée API. Un moteur de jeu n'est pas un jeu vidéo lui-même, et peut donc
+    être réutilisé pour créer des jeux divers et variés. Il permet de plus de faire en sorte qu'un même jeu fonctionne sur plusieurs plate-formes.
+</p>
+<p align="JUSTIFY">
+    Aucun moteur de jeu ne peut-être qualifié comme « le meilleur » ; les performances de chaque domaine varient d'un moteur de jeu à l'autre, faisant que
+    certains moteurs de jeux seront plus aptes à créer certains genres de jeux plutôt que d'autres.
+</p>
+<p align="JUSTIFY">
+    Chaque moteur de jeu utilise un langage de programmation et celui-ci varie d'un moteur de jeu à l'autre, le plus courant étant le C++.
+</p>
+<ol start="2">
+    <li>
+        <p align="JUSTIFY">
+            Moteurs graphique
+        </p>
+    </li>
+</ol>
+<p align="JUSTIFY">
+    Un moteur graphique est donc l'un des programmes informatiques qui forment un moteur de jeu. Il utilise des bibliothèques et, grâce à elles, aide le
+    développeur à gérer les aspects graphique du jeu ; il permet de calculer des espaces, lire des fichiers et gérer l'affichage d'images à l'écran en
+    utilisant des fonctions mathématiques (telles les coordonnées d'un objet). Ainsi, on peut y importer des modèles créés par le biais d'autres logiciels afin
+    d'organiser ces modèles pour en faire le graphisme d'un jeu. Il existe des moteurs 3D, des moteurs 2.5D et des moteurs 2D.
+</p>
+<p align="JUSTIFY">
+    Une fois le jeu vidéo créé, c'est la carte graphique de la console de jeu ou du PC qui permet d'envoyer à l'écran les images du jeu.
+</p>
+<p align="JUSTIFY">
+    <strong>II- Types de moteurs graphiques</strong>
+</p>
+<ol>
+    <li>
+        <p align="JUSTIFY">
+            2D
+        </p>
+    </li>
+</ol>
+<p align="JUSTIFY">
+    Un moteur 2D est une bibliothèque qui permet la création des graphismes d'un jeu en 2D, c'est à dire un jeu sur deux axes. C'est grâce à lui que
+    l'affichage et le déplacement de sprites est possible. Les sprites sont des éléments graphiques. Ils peuvent être animés et déplacés sur un arrière plan,
+    ou sur une tiled map. Le tile mapping consiste à coller des cases de même taille côte à côte pour former un écran dans lequel le joueurs et les
+    intelligences artificielles vont se déplacer. Le développeur crée cet écran grâce à un tableau de nombres, dont chaque nombre est associé à un élément
+    (voir l'image ci-dessus).
+</p>
+<ol start="2">
+    <li>
+        <p align="JUSTIFY">
+            2.5D
+        </p>
+    </li>
+</ol>
+<p align="JUSTIFY">
+    Un moteur 2.5D permet de générer un jeu aux graphismes en 2.5D, c'est à dire un graphisme qui est créé sur deux axes mais qui donne l'illusion qu'il est
+    fait en 3D. Un jeu en 2.5D est donc créé grâce à une carte en 2D que l'on aura placée dans une position approchant de l'horizontale, puis en modifiant
+    certaines hauteurs grâce au moteur du jeu ; cela créer une illusion de 3D. On donne une illusion de 3D grâce à la méthode du raycasting, qui envoie des
+    rayons à partir du champs de vision du joueur. Ces rayons prennent en compte la distance qui sépare le joueur d'un objet et modifie la taille de l'objet en
+    fonction de si le joueur s'approche ou s'éloigne, créant ainsi une illusion de 3D.
+</p>
+<ol start="3">
+    <li>
+        <p align="JUSTIFY">
+            3D
+        </p>
+    </li>
+</ol>
+<p align="JUSTIFY">
+    Un moteur 3D permet la création et l'affichage de graphismes 3D. Il existe deux types de 3D : précalculée et en temps réel. La 3D précalculée offre des
+    images de haute qualité, mais elle est peu utilisée dans le jeu vidéo (et lorsqu'elle l'est, c'est uniquement hors des phases de gameplay) ; en effet, les
+    images en 3D précalculées prennent des heures à être calculées. Lorsque une personne interagit avec le jeu (se déplace, se bat, etc) l'image doit être
+    immédiatement calculée en moins de quelques centièmes de secondes ; la 3D en temps réel permet de calculer entre 30 et 60 images par secondes et donc de
+    réagir immédiatement aux commandes du joueur. Dans tous les cas, la 3D est représentée sur trois axes nommés x, y et z.
+</p>
+<p align="CENTER">
+    <img
+        src="http://www.erimez.com/misc/Softimage/tutorials/si_help/introduction/images/basic/si_basic_xyz_coord_system.gif"
+        name="images3"
+        align="BOTTOM"
+        width="353"
+        height="287"
+        border="0"
+    />
+</p>
+<p align="JUSTIFY">
+    <strong>III- Technologies</strong>
+</p>
+<ol>
+    <li>
+        <p align="JUSTIFY">
+            La modélisation
+        </p>
+    </li>
+</ol>
+<p align="JUSTIFY">
+    En 3D, la modélisation prend appui sur le concept art créé au préalable pour construire des sculptures en trois dimensions. Pour modéliser un objet ou un
+    personnage, on utilise des triangles. La technique de la représentation polygonale est utilisée pour représenter la surface d'un objet comme un ensemble de
+    surfaces planes, appelées facettes ou faces ; une facette est composée de deux triangles joints à l’hypoténuse.
+</p>
+<p align="JUSTIFY">
+    Le high poly, une modélisation 3D très poussée, utilise plusieurs millions de triangles pour créer un modèle 3D. Elle n'est que rarement utilisée dans des
+    jeux vu sa complexité et la difficulté qu'elle poserait à être calculée en temps réel ; le high poly est donc généralement utilisé dans des cinématiques ou
+    pour créer une forme de concept art avancé.
+</p>
+<p align="JUSTIFY">
+    On utilise donc le low poly pour créer des objets qui apparaîtront dans le jeu même, car ils sont composés de bien moins de triangles que les objets créés
+    avec le high poly : seulement quelques milliers. Après la création de ces objets, on associe les surfaces 3D de l'objet à des surfaces 2D.
+</p>
+<ol start="2">
+    <li>
+        <p align="JUSTIFY">
+            Les textures
+        </p>
+    </li>
+</ol>
+<p align="JUSTIFY">
+    Toujours en 3D, après la modélisation vient l'application de textures. Une texture est une image qui sert à « habiller » des objets créés avec des
+    polygones. Le moteur graphique applique les déformations nécessaires afin de rendre le jeu immersif : ainsi, l'image de la texture d'une boite sera étirée
+    en fonction du point de vue du joueur qui tourne autours d'une boite en bois. Les textures en effets ne sont pas faites de pixels mais de texels (TEXture
+    ELements), des points de couleurs sur la texture. La particularité des texels est qu'ils peuvent capturer plusieurs pixels à l'écran et ainsi rester figés
+    sur ces pixels capturés.
+</p>
+<ol start="3">
+    <li>
+        <p align="JUSTIFY">
+            L'animation
+        </p>
+    </li>
+</ol>
+<ol start="4">
+</ol>
+<p align="JUSTIFY">
+    Animer un jeu vidéo consiste à afficher une succession d'images fixes. Il existe plusieurs types d'animations dans le jeu vidéo : l'animation à la main et
+    le motion capture. En animation 2D et 2.5D, on utilisera des sprites (images pixelisées) ou des dessins vectorisés (faits à partir de points) pour
+    représenter les personnages ou éléments de décor du jeu. Pour animer ceux-ci, on devra dessiner les mouvements des personnages image par image. Le nombre
+    d'images qui compose l'animation d'un mouvement détermine sa fluidité ; par exemple, un animal courant à quatre pattes nécessite entre 4 et 16 images pour
+    un résultat optimal, tandis qu'un personnage lançant un coup de poing en demande entre 2 et 6. On animera le personnage de dos, de face et de côté dans le
+    cas d'un jeu « vu de dessus », tandis que seul le profil des personnages sera nécessaire dans un jeu scrolling (de plateforme ou de combat 2D).
+</p>
+<p align="JUSTIFY">
+    En animation 3D à la main, on utilisera une technique appelée rigging. Ce procédé consiste donner à un modèle un squelette possédant plusieurs points de
+    contrôles. Associée à ce squelette sera la surface extérieure du modèle, appelée mesh. Celle-ci bougera en même temps que le squelette, et ce mouvement
+    dépendra des axes de rotations choisis par l'animateur. L'animateur peut utiliser le keyframing, un processus qui consiste à déterminer le positionnement
+    initial et le positionnement final d'un modèle et à laisser l'ordinateur calculer la transition entre ces deux positions pour obtenir une animation.
+</p>
+<p align="JUSTIFY">
+    Alternativement à l'animation à la main existe la technologie du motion capture, de plus en plus populaire dans les titres AAA grâce aux mouvements
+    naturels qu'elle permet d'obtenir. Celle-ci est utilisée dans les jeux 3D est consiste à capturer les mouvements d'un acteur grâce à des capteurs placés
+    sur son corps, puis de transmettre ces mouvements à un modèle 3D.
+</p>
+<ol start="4">
+    <li>
+        <p align="JUSTIFY">
+            La lumière
+        </p>
+    </li>
+</ol>
+<p align="JUSTIFY">
+    Il y a différentes technologies qui permettent de gérer l'éclairage d'un jeu. Le flatshading est la première technologie qui a permis de donner un effet de
+    lumière dans les jeux en projetant de la lumière brute sur les faces d'un modèle 3D fait de polygones, créant ainsi une face d'une même intensité
+    lumineuse. L'amélioration de cette technologie s'appelle l'ombrage de Gouraud ; celui-ci, comme le flatshading, projette de la lumière sur les faces d'un
+    modèle mais permet de créer un dégradé entre les zones d'ombre et de lumière. L'ombrage de Phong améliore encore cette technologie en ajoutant des reflets
+    de lumières à un modèle 3D.
+</p>
+<p align="CENTER">
+    <img src="http://i.imgur.com/h8vNeaD.jpg" name="images1" align="BOTTOM" width="510" height="180" border="0"/>
+</p>
+<p align="JUSTIFY">
+    Aujourd'hui, pour créer des ombres dynamiques, c'est à dire qui suivent des objets qui se déplacent dans le jeu, on utilise la technologie de la lightmap
+    qui consiste à calculer la lumière d'un niveau en temps réel ; la lumière est calculée en fonction de la source lumineuse et des objets qui se trouvent sur
+    son chemin. Alternativement, le shadowvolume est une autre technique qui consiste à faire en sorte que l'objet lui même renvoie une ombre sur
+    l’environnement grâce à des rayons tracés entre la source lumineuse et les points d'intersection du mesh d'un modèle 3D.
+</p>
+<p align="JUSTIFY">
+    <strong>IV- Avantages des moteurs de jeu</strong>
+</p>
+<p align="JUSTIFY">
+    Avant la création du premier moteur de jeu, le jeu vidéo était conçu comme un seul et même programme. Les moteurs de jeu, quant à eux, sont séparés du jeu
+    lui-même, et peuvent ainsi servir à créer des jeux totalement différents les uns des autres. Les moteurs de jeu ont permis la propagation du jeu vidéo et
+    son évolution ; en effet, les technologies liées au jeu vidéo sont souvent à la fois coûteuses et compliquées. Combien de studios ont la capacité
+    financière et technologique de créer un moteur physique ou encore un moteur graphique permettant un rendement photoréaliste de la peau ? En achetant des
+    moteurs performants, les studios gagnent la capacité a créer plus facilement des jeux de meilleure qualité. Les membres d'un studio vidéoludique peuvent se
+    partager le travail et assembler le tout dans le moteur de jeu une fois terminé.
+</p>
+<p align="JUSTIFY">
+    Enfin, les moteurs de jeu permettent de réutiliser des éléments déjà existants et donc de gagner énormément de temps et de d'améliorer les performances
+    d'un moteur de jeu au fur et à mesure des années.
+</p>
