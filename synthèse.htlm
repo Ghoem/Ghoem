@@ -12,9 +12,9 @@
     </li>
 </ol>
 <p align="JUSTIFY">
-    Un moteur de jeu est un programme complexe et polyvalent qui rassemble plusieurs moteurs spécialisés qui vont servir à créer des jeux vidéo ; parmi ces
-    moteurs spécialisés, nous retrouvons le moteur graphique, le moteur physique, les moteur de son, le moteur d'intelligence artificielle, et ainsi de suite.
-    Un moteur de jeu est un environnement proposant des bibliothèques logicielles (outils et fonctions) qui permettent la création d'un jeu vidéo. Pour
+    Un moteur de jeu est un programme complexe et polyvalent qui rassemble plusieurs moteurs spécialisés servant à créer des jeux vidéo ; parmi ces
+    moteurs spécialisés, nous retrouvons le moteur graphique, le moteur physique, le moteur de son, le moteur d'intelligence artificielle, et ainsi de suite selon les besoins des développeurs.
+    Plus précisément, un moteur de jeu est un environnement proposant des bibliothèques logicielles (outils et fonctions) qui permettent la création d'un jeu vidéo. Pour
     communiquer avec cette bibliothèque, le programmeur passe par une interface appelée API. Un moteur de jeu n'est pas un jeu vidéo lui-même, et peut donc
     être réutilisé pour créer des jeux divers et variés. Il permet de plus de faire en sorte qu'un même jeu fonctionne sur plusieurs plate-formes.
 </p>
@@ -206,9 +206,9 @@
     <strong>V- Bibliographie</strong>
 </p>
 <ul>
-  <li>OC – OPEN CLASSROOMS. « 3D temps réel avec Irrlicht » [en ligne]. In openclassrooms.com. 5 décembre 2013 [consulté le 8 juin 2016]. Disponible sur le Web : <https://openclassrooms.com/courses/3d-temps-reel-avec-irrlicht/introduction-70>
+  <li>OC – OPEN CLASSROOMS. « 3D temps réel avec Irrlicht » [en ligne]. In <i>openclassrooms.com</i>. 5 décembre 2013 [consulté le 8 juin 2016]. Disponible sur le Web : <https://openclassrooms.com/courses/3d-temps-reel-avec-irrlicht/introduction-70>
 </li>
-  <li>Zeste de savoir. « Création d'un objet de jeu vidéo – Un objet 3D du concept au gameplay » [en ligne]. In zestedesavoir.com. 8 octobre 2015 [consulté le 8 juin 2016]. Disponible sur le Web : <https://zestedesavoir.com/articles/212/creation-dun-objet-de-jeu-video/#2-concept-et-modelisation>
+  <li>Zeste de savoir. « Création d'un objet de jeu vidéo – Un objet 3D du concept au gameplay » [en ligne]. In <i>zestedesavoir.com</i>. 8 octobre 2015 [consulté le 8 juin 2016]. Disponible sur le Web : <https://zestedesavoir.com/articles/212/creation-dun-objet-de-jeu-video/#2-concept-et-modelisation>
 </li>
-  <li>GIANT BOMB. « Game Engines : How do they work ? » [en ligne]. In giantbomb.com. 20 juin 2013 [consulté le 8 juin 2016]. Disponible sur le Web : <http://www.giantbomb.com/profile/michaelenger/blog/game-engines-how-do-they-work/101529/></li>
+  <li>GIANT BOMB. « Game Engines : How do they work ? » [en ligne]. In <i>giantbomb.com</i>. 20 juin 2013 [consulté le 8 juin 2016]. Disponible sur le Web : <http://www.giantbomb.com/profile/michaelenger/blog/game-engines-how-do-they-work/101529/></li>
 </ul>
