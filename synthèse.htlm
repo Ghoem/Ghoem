@@ -144,7 +144,7 @@
 <ol start="4">
 </ol>
 <p align="JUSTIFY">
-    Animer un jeu vidéo consiste à afficher une succession d'images fixes. Il existe plusieurs types d'animations dans le jeu vidéo : l'animation à la main et
+    Animer un jeu vidéo consiste à afficher une succession d'images fixes. Il existe plusieurs types de techniques d'animation dans le jeu vidéo : l'animation à la main et
     le motion capture. En animation 2D et 2.5D, on utilisera des sprites (images pixelisées) ou des dessins vectorisés (faits à partir de points) pour
     représenter les personnages ou éléments de décor du jeu. Pour animer ceux-ci, on devra dessiner les mouvements des personnages image par image. Le nombre
     d'images qui compose l'animation d'un mouvement détermine sa fluidité ; par exemple, un animal courant à quatre pattes nécessite entre 4 et 16 images pour
@@ -159,7 +159,7 @@
 </p>
 <p align="JUSTIFY">
     Alternativement à l'animation à la main existe la technologie du motion capture, de plus en plus populaire dans les titres AAA grâce aux mouvements
-    naturels qu'elle permet d'obtenir. Celle-ci est utilisée dans les jeux 3D est consiste à capturer les mouvements d'un acteur grâce à des capteurs placés
+    naturels qu'elle permet d'obtenir. Celle-ci est utilisée dans les jeux 3D et consiste à capturer les mouvements d'un acteur grâce à des capteurs placés
     sur son corps, puis de transmettre ces mouvements à un modèle 3D.
 </p>
 <ol start="4">
@@ -170,11 +170,11 @@
     </li>
 </ol>
 <p align="JUSTIFY">
-    Il y a différentes technologies qui permettent de gérer l'éclairage d'un jeu. Le flatshading est la première technologie qui a permis de donner un effet de
+    Il existe différentes technologies qui permettent de gérer l'éclairage d'un jeu. Le flatshading est la première technologie qui a permis de donner un effet de
     lumière dans les jeux en projetant de la lumière brute sur les faces d'un modèle 3D fait de polygones, créant ainsi une face d'une même intensité
     lumineuse. L'amélioration de cette technologie s'appelle l'ombrage de Gouraud ; celui-ci, comme le flatshading, projette de la lumière sur les faces d'un
     modèle mais permet de créer un dégradé entre les zones d'ombre et de lumière. L'ombrage de Phong améliore encore cette technologie en ajoutant des reflets
-    de lumières à un modèle 3D.
+    de lumière à un modèle 3D.
 </p>
 <p align="CENTER">
     <img src="http://i.imgur.com/h8vNeaD.jpg" name="images1" align="BOTTOM" width="510" height="180" border="0"/>
@@ -199,4 +199,9 @@
 <p align="JUSTIFY">
     Enfin, les moteurs de jeu permettent de réutiliser des éléments déjà existants et donc de gagner énormément de temps et de d'améliorer les performances
     d'un moteur de jeu au fur et à mesure des années.
+</p>
+
+</p>
+<p align="JUSTIFY">
+    <strong>V- Bibliographie</strong>
 </p>
