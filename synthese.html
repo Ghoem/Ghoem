@@ -61,7 +61,7 @@
 <p align="JUSTIFY">
     Un moteur 2D est une bibliothèque qui permet la création des graphismes d'un jeu en 2D, c'est à dire un jeu sur deux axes. C'est grâce à lui que
     l'affichage et le déplacement de sprites est possible. Les sprites sont des éléments graphiques. Ils peuvent être animés et déplacés sur un arrière plan,
-    ou sur une tiled map. Le tile mapping consiste à coller des cases de même taille côte à côte pour former un écran dans lequel le joueurs et les
+    ou sur une tile map. Le tile mapping consiste à coller des cases de même taille côte à côte pour former un écran dans lequel le joueurs et les
     intelligences artificielles vont se déplacer. Le développeur crée cet écran grâce à un tableau de nombres, dont chaque nombre est associé à un élément.
     
 </p>
@@ -77,7 +77,7 @@
 <p align="JUSTIFY">
     Un moteur 2.5D permet de générer un jeu aux graphismes en 2.5D, c'est à dire un graphisme qui est créé sur deux axes mais qui donne l'illusion qu'il est
     fait en 3D. Un jeu en 2.5D est donc créé grâce à une carte en 2D que l'on aura placée dans une position approchant de l'horizontale, puis en modifiant
-    certaines hauteurs grâce au moteur du jeu ; cela créer une illusion de 3D. On donne une illusion de 3D grâce à la méthode du raycasting, qui envoie des
+    certaines hauteurs grâce au moteur du jeu qui créent une illusion de 3D, ceci grâce à la méthode du raycasting, qui envoie des
     rayons à partir du champs de vision du joueur. Ces rayons prennent en compte la distance qui sépare le joueur d'un objet et modifie la taille de l'objet en
     fonction de si le joueur s'approche ou s'éloigne, créant ainsi une illusion de 3D.
 </p>
@@ -89,11 +89,11 @@
     </li>
 </ol>
 <p align="JUSTIFY">
-    Un moteur 3D permet la création et l'affichage de graphismes 3D. Il existe deux types de 3D : précalculée et en temps réel. La 3D précalculée offre des
+    Un moteur 3D permet la création, l'importation et l'affichage de graphismes 3D. Il existe deux types de 3D : précalculée et en temps réel. La 3D précalculée offre des
     images de haute qualité, mais elle est peu utilisée dans le jeu vidéo (et lorsqu'elle l'est, c'est uniquement hors des phases de gameplay) ; en effet, les
-    images en 3D précalculées prennent des heures à être calculées. Lorsque une personne interagit avec le jeu (se déplace, se bat, etc) l'image doit être
+    images en 3D précalculées prennent plusieurs heures à être calculées par des machines surpuissantes. Lorsque un joueur interagit avec le jeu (se déplace, se bat, etc) l'image doit être
     immédiatement calculée en moins de quelques centièmes de secondes ; la 3D en temps réel permet de calculer entre 30 et 60 images par secondes et donc de
-    réagir immédiatement aux commandes du joueur. Dans tous les cas, la 3D est représentée sur trois axes nommés x, y et z.
+    réagir immédiatement aux commandes du joueur. Précalculée ou en temps réel, la 3D est représentée sur trois axes nommés x, y et z.
 </p>
 <p align="CENTER">
     <img
@@ -116,18 +116,18 @@
     </li>
 </ol>
 <p align="JUSTIFY">
-    En 3D, la modélisation prend appui sur le concept art créé au préalable pour construire des sculptures en trois dimensions. Pour modéliser un objet ou un
+    En 3D, la modélisation prend appui sur le concept art créé au préalable pour construire des sculptures (ou modèles) en trois dimensions. Pour modéliser un objet ou un
     personnage, on utilise des triangles. La technique de la représentation polygonale est utilisée pour représenter la surface d'un objet comme un ensemble de
     surfaces planes, appelées facettes ou faces ; une facette est composée de deux triangles joints à l’hypoténuse.
 </p>
 <p align="JUSTIFY">
     Le high poly, une modélisation 3D très poussée, utilise plusieurs millions de triangles pour créer un modèle 3D. Elle n'est que rarement utilisée dans des
-    jeux vu sa complexité et la difficulté qu'elle poserait à être calculée en temps réel ; le high poly est donc généralement utilisé dans des cinématiques ou
+    jeux vu sa complexité et la difficulté qu'elle poserait à être calculée en temps réel ; le high poly est donc généralement utilisé dans des cinématiques précalculées ou
     pour créer une forme de concept art avancé.
 </p>
 <p align="JUSTIFY">
-    On utilise donc le low poly pour créer des objets qui apparaîtront dans le jeu même, car ils sont composés de bien moins de triangles que les objets créés
-    avec le high poly : seulement quelques milliers. Après la création de ces objets, on associe les surfaces 3D de l'objet à des surfaces 2D.
+    On utilise donc le low poly pour créer des objets qui apparaîtront durant la phase de gameplay (lors de l'utilisation de 3D en temps réel), car ils sont composés de bien moins de triangles que les objets créés
+    avec le high poly : seulement quelques milliers. Après la création de ces objets, on associe les surfaces 3D de l'objet à des surfaces 2D : les textures. 
 </p>
 <ol start="2">
     <li>
@@ -153,7 +153,7 @@
 <ol start="4">
 </ol>
 <p align="JUSTIFY">
-    Animer un jeu vidéo consiste à afficher une succession d'images fixes. Il existe plusieurs types d'animation dans le jeu vidéo : l'animation à la main et
+    Animer consiste à afficher une succession d'images fixes pour former un mouvement. Il existe plusieurs types d'animation dans le jeu vidéo : l'animation à la main et
     le motion capture. En animation 2D et 2.5D, on utilisera des sprites (images pixelisées) ou des dessins vectorisés (faits à partir de points) pour
     représenter les personnages ou éléments de décor du jeu. Pour animer ceux-ci, on devra dessiner les mouvements des personnages image par image. Le nombre
     d'images qui compose l'animation d'un mouvement détermine sa fluidité ; par exemple, un animal courant à quatre pattes nécessite entre 4 et 16 images pour
